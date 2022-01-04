@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/React-API" element={<HomePage />} />
         
-        <Route path="/cripto" element={<Cripto />} />
+        <Route path="/React-API/cripto" element={<Cripto />} />
       </Routes>
       <Footer></Footer>
     </div>
