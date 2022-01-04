@@ -6,7 +6,7 @@ const Header = () => {
         <header>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <h1>
-                    <NavLink to="/" className="text-white nav-link active">
+                    <NavLink to="/React-API" className="text-white nav-link active">
                         API Practice App
                     </NavLink>
                 </h1>

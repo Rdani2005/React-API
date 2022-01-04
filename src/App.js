@@ -13,7 +13,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/React-API" element={<HomePage />} />
         
         <Route path="/cripto" element={<Cripto />} />
       </Routes>
