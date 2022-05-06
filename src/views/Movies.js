@@ -5,7 +5,7 @@ const Movies = () => {
     let [movies, setMovies] = useState([])
 
     const getData = async () => {
-        const res = await axios.get('http://www.omdbapi.com/?s=marvel&apikey=a4d509b1')
+        const res = await axios.get('https://www.omdbapi.com/?s=marvel&apikey=a4d509b1')
         console.log(res.data.Search)
         setMovies(res.data.Search)
     }
