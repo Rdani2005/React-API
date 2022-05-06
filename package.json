@@ -1,7 +1,6 @@
 {
   "name": "react-apis",
   "version": "0.1.0",
-  "homepage": "https://rdani2005.github.io/React-API/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
